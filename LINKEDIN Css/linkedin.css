@@ -28,7 +28,7 @@ header {
 }
 
 .container {
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
 }
 
@@ -117,8 +117,7 @@ nav ul li {
 
 .side-menu {
     border-left: 2px solid #d7d7d7;
-    position: relative;
-    left: 60px;
+
 }
 
 .side-menu nav {
@@ -126,20 +125,25 @@ nav ul li {
     left: 10px;
 }
 
+.side-menu nav ul li i {
+    font-size: 20px;
+    margin-left: 23px;
+}
+
 .side-menu nav ul li a {
     color: rgb(230, 163, 38);
 }
 
 .wrapper-container {
-    width: 87%;
-    margin: 5% 7%;
-    /* border: 1px solid #333; */
+    width: 90%;
+    margin: 6% 5%;
+
 }
 
 .flexcontent {
     display: flex;
     justify-content: space-between;
-    /* align-items: center; */
+
 }
 
 .left-side-bar {
@@ -340,8 +344,8 @@ nav ul li {
 }
 
 .btn-group {
-   width: 90%;
-   margin: 2% 12%;
+    width: 90%;
+    margin: 2% 12%;
 }
 
 .btn-group input[type=submit] {
@@ -465,7 +469,7 @@ nav ul li {
     background-color: #fff;
     min-width: 130px;
     overflow: auto;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
@@ -524,7 +528,7 @@ nav ul li {
     content: '';
     height: 1px;
     width: 100%;
-    background-color: #b1aaaa; 
+    background-color: #b1aaaa;
 }
 
 .info-linkicon {
