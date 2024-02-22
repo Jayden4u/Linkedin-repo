@@ -601,7 +601,7 @@ nav ul li {
     padding: 10px 13px;
 }
 
-.flex {
+.rb-header-flex {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -609,8 +609,9 @@ nav ul li {
 
 .rb-right h4 {
     color: #696565;
-    font-size: 17px;
+    font-size: 14px;
 }
+
 
 .rb-img-box {
     width: 120%;
